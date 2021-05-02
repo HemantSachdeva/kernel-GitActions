@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~/
+
+git config --global user.name Hemant Sachdeva
+git config --global user.email hemant.evolver@gmail.com
+
+# Sync stuffs
+git clone https://github.com/HemantSachdeva/kernel_xiaomi_laurel_sprout --depth=1 --single-branch -b elle kernel
